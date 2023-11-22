@@ -128,12 +128,12 @@ int main(){
       int ch;//scelta
               system("clear");
     do{
-            printf("|------------------------------|\n");
-            printf("| [1] Inizia una nuova partita |\n");
-            printf("| [2] Credito                  |\n");
-            printf("| [3] Regole                   |\n");
-            printf("| [0] Uscita                   |\n");
-            printf("|------------------------------|\n");
+            printf("   / \__          |------------------------------|\n");
+            printf("  (    @\___      | [1] Inizia una nuova partita |\n");
+            printf("  /         O    | [2] Credito                  |\n");
+            printf(" /   (_____/     | [3] Regole                   |\n");
+            printf("/_____/   U      | [0] Uscita                   |\n");
+            printf("                 |------------------------------|\n");
 
             if (scanf("%d", &ch) != 1) {
             printf("Errore: Devi inserire un numero.\n");
